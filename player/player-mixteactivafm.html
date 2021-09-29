@@ -25,7 +25,7 @@
 		$("#lunaradio").lunaradio({
 			token: "600lIPN",
 			userinterface: "big",
-			backgroundcolor: "",
+			backgroundcolor: "transparent",
 			fontcolor: "#ffffff",
 			hightlightcolor: "#ff0000",
 			fontname: "",
@@ -45,17 +45,19 @@
 			color4: "#067dcc",
 			visualizeropacity: "0.4",
 			itunestoken: "1000lIPN",
-			metadatatechnic: "corsproxy",
-			ownmetadataurl: "",
+			metadatatechnic: "",
+			ownmetadataurl: "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/sxcuzr96za0uv", //https://services.getmeradio.com/getmeradio/song_processing/4262/nowplaying.txt
+			usestreamcorsproxy: "false",
 			corsproxy: "https://cors-anywhere.herokuapp.com/",
-			streamurl: "http://stream.zeno.fm/sxcuzr96za0uv.acc",
-			streamtype: "radiojar",
-			icecastmountpoint: "",
+			streamurl: "http://stream.zeno.fm/sxcuzr96za0uv",
+			streamtype: "radiozeno",
+			icecastmountpoint: "/live",
+			shoutcastpath: "/stream",
 			radionomyid: "",
 			radionomyapikey: "",
+			radiozenoid: "sxcuzr96za0uv",
 			radiojarid: "",
 			radiocoid: "",
-			shoutcastpath: "",
 			shoutcastid: "1",
 			streamsuffix: "",
 			metadatainterval: "5000",
@@ -64,8 +66,6 @@
 			autoplay: "true",
 			displayliveicon: "true",
 			displayvisualizericon: "true",
-			usestreamcorsproxy: "true", 
-			corsproxy: "",
 		});
 	});
 	</script>
