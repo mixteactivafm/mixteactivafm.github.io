@@ -43,6 +43,11 @@ body {
 
 }
 
+h2 {
+	color: #f1f1f8;
+	font: 700 2rem/2rem "Montserrat", sans-serif;
+}
+
 div {
 	align-content: center;
 	align-items: center;
@@ -197,7 +202,7 @@ div {
 /* Footer */
 
 	#footer {
-		font-family: Share;
+		font-family: Montserrat;
 		color: #fff;
 		padding: 1em 0 1em 0 ;
 		color: #b0b0b0;
@@ -211,7 +216,7 @@ div {
 		}
 
 			#footer a:hover {
-				color: #4696e5;
+				color: #C00000;
 			}
 
 ol, ul {
